@@ -1,0 +1,255 @@
+@font-face{
+    src: url(../font/Nunito/Nunito-VariableFont_wght.ttf);
+    font-family: NunitioVar;
+}
+@font-face{
+    src: url(../font/URW\ Geometric\ W03\ Extra\ Bold.ttf);
+    font-family: GeometricExtrabold;
+}
+@font-face{
+    src: url(../font/Nunito/static/Nunito-ExtraLightItalic.ttf);
+    font-family: NunitioVarItalia;
+}
+@font-face{
+    src: url(../font/Nunito/static/Nunito-BoldItalic.ttf);
+    font-family: NunitioVarBoldItalia;
+}
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: NunitioVar;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+/* #header*/
+header{
+    width: 100%;
+    height: 100%; 
+}
+header .top-right{
+    width: 100%;
+    height: 30px;
+    background-color:rgb(30, 30, 30);
+    position: absolute;
+    top: 0px; 
+}
+.top-right a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    float: right;
+    text-align:center ;
+    font-size: small;
+}
+.top-right img{
+    margin: 3px 3px -8px 10px   ;
+}
+
+
+/* #nav */
+nav{
+    font-family: GeometricExtrabold;
+    border-top: 20px gray;
+    border-bottom: 20px gray;
+    line-height: 120px;
+    background-color: white;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    margin:0 30px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+nav a:hover{
+    color: orange;
+}
+.logo{  
+    margin-left: 120px;
+    float: left;
+    width: 120px;
+    height: 120px;
+}
+.Dis{
+    height: 45px;
+}
+.menu-right{
+    float: right;
+    padding-right: 50px;
+}
+.timkiem{
+    border: 1px solid gray ;
+    line-height: 20px;
+    width: 250px;
+    height: 35px;
+    padding: 0px 15px;
+}
+.line{
+    background-color: rgb(236, 231, 231);
+    width: 100%;
+    height: 30px;
+}
+
+
+/* #article */
+.main{
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+}
+article{
+    font-family: NunitioVar;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 1519.2px;
+    height: 780px;  
+    text-align: center;
+    background-image: url(../image/bg_comingsoon.jpg);
+}article h1{
+    font-family: GeometricExtrabold;
+    text-transform: uppercase;
+    font-size: 90px;
+    color: white;
+    margin: 200px 0px 70px 0px;
+}
+article p{
+    color: white;
+    font-size: 20px;
+}
+.Social-logo img{
+    margin: 0px 10px;
+    margin-bottom: 30px;
+}
+.TiepTuc a{
+    font-family: GeometricExtrabold;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;  
+}
+.TiepTuc{
+    background-color: #f15e2c;
+    height: 50px;
+    margin: 0px 625px;
+    padding: 10px 0px 0px 0px;
+}
+
+
+
+
+/* #footer */
+footer{
+    display: flex;
+    justify-content: center;
+}
+.footer1{
+    background-color: rgb(61, 59, 59);
+    font-family: NunitioVar;
+    padding: 40px 0px 40px 0px;
+}
+.footer1 h3{
+    font-family: GeometricExtrabold;
+    font-size: 25px;
+}
+.footer-heading{
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+.footer-list{
+    padding-left: 0 ;
+    list-style: none;
+}
+.footer-link{
+    text-decoration: none;
+    color: rgb(148, 145, 145);
+    font-size: medium;
+    line-height: 20px;
+}
+.footer-link:hover{
+    color: orangered;
+}
+.iconsocial{
+    padding-left: 0 ;
+}
+.cot-0{
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    margin-left: 80px;
+    margin-right: 0px;
+}
+.cot{
+    width: 1500px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.cot1{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 20%;
+    font-size: small;
+    list-style: none;
+}
+.cot1>li>a>img{
+    
+    margin-left: -40px;
+    margin-bottom: 15px;
+    vertical-align: middle;
+}
+.timcuahang{
+    background-color: orangered ;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: medium;
+    border: orangered;
+    padding: 10px 80px;
+    margin-left: -38px;
+    
+}
+.logoana{
+    width: 270px;
+    height: 60px;
+}
+.bocongthuong{
+    padding-top: 30px;
+    width: 170px;
+    height: 95px;
+}
+.search{
+    position: relative;
+}
+.search1{
+    border: 1px solid gray ;
+    width: 120px;
+    height: 27px;
+    display: inline-block;
+   
+}
+.muiten img{
+    position: absolute;
+    margin-left: 5px;
+    height: 27px;
+}
+.footer-heading1{
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
+.footer-link-sc{
+    text-decoration: none;
+    color: rgb(148, 145, 145);
+    font-size: small;
+    line-height: 20px;
+}

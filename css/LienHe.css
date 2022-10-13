@@ -1,0 +1,338 @@
+@font-face{
+    src: url(../font/Nunito/Nunito-VariableFont_wght.ttf);
+    font-family: NunitioVar;
+}
+@font-face{
+    src: url(../font/URW\ Geometric\ W03\ Extra\ Bold.ttf);
+    font-family: GeometricExtrabold;
+}
+@font-face{
+    src: url(../font/Nunito/static/Nunito-ExtraLightItalic.ttf);
+    font-family: NunitioVarItalia;
+}
+@font-face{
+    src: url(../font/Nunito/static/Nunito-BoldItalic.ttf);
+    font-family: NunitioVarBoldItalia;
+}
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: NunitioVar;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+/* #header*/
+header{
+    width: 100%;
+    height: 100%; 
+}
+header .top-right{
+    width: 100%;
+    height: 30px;
+    background-color:rgb(30, 30, 30);
+    position: absolute;
+    top: 0px; 
+}
+.top-right a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    float: right;
+    text-align:center ;
+    font-size: small;
+}
+.top-right img{
+    margin: 3px 3px -8px 10px   ;
+}
+
+
+/* #nav */
+nav{
+    font-family: GeometricExtrabold;
+    border-top: 20px gray;
+    border-bottom: 20px gray;
+    line-height: 120px;
+    background-color: white;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    margin:0 30px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+nav a:hover{
+    color: orange;
+}
+.logo{  
+    margin-left: 120px;
+    float: left;
+    width: 120px;
+    height: 120px;
+}
+.Dis{
+    height: 45px;
+}
+.menu-right{
+    float: right;
+    padding-right: 50px;
+}
+.timkiem{
+    border: 1px solid gray ;
+    line-height: 20px;
+    width: 250px;
+    height: 35px;
+    padding: 0px 15px;
+}
+.line{
+    background-color: rgb(236, 231, 231);
+    width: 100%;
+    height: 30px;
+}
+
+.main{
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+}
+.banner{
+    width: 1200px;
+    height: 300px;
+    padding: 0px 0px 20px 0px ;
+}
+
+/* #article */
+article{
+    font-family: NunitioVar;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 1200px;
+    height: 100%;
+    margin-bottom: 30px;
+}
+.TieuDe{
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 40px 0px;
+}
+.LineAt{
+    background-color: #3c3c3c;
+    height:100px;
+    margin: 5px 0px;
+}
+.LineAt>h3{
+    text-align: center;
+    color: #888991;
+    padding-top: 30px;
+    font-family: NunitioVarItalia;
+}
+.Map{
+    text-align: center;
+}
+.Cot1{
+    width: 30%;
+    background-color: #f1f1f1;
+    padding-right: 10px;
+}
+.Form{
+    margin: 0px 20px;
+}
+.Form>h1{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.Form-DangKy{
+    margin: 30px 20px;
+    width: 275px;
+}
+.Form-DangKy input{
+    width: 100%;
+    height: 40px;
+    margin-top: 16px;
+    padding: 0px 10px 0px 10px;
+    border: #cac2c2 1px solid;
+    border-radius: 3px;
+    outline: none;
+}
+.Form-DangKy input:focus{
+    border-color: #808080;
+}
+.NoiDung input{
+    height: 100px;
+    padding-bottom: 50px;
+}
+.Nut{
+    margin-top: 50px;
+}
+.Nut button{
+    color: white;
+    height: 40px;
+    width: 100px;
+    margin-left: 175px;
+    background-color: #f15e2c;
+    border: #f15e2c 1px solid;
+    outline: none;
+    border-radius: 3px;
+}
+.DC{
+    margin: 0px 20px;
+}
+.DC>h4{
+    font-family: GeometricExtrabold;
+    font-size: 20px;
+}
+.DC>p{
+    color: #808080;
+}
+.ThuocTinh{
+    font-family: NunitioVarBoldItalia;
+}
+.Cot2{
+    width: 70%;
+}
+.Black-line{
+    height: 5px;
+    border-top: #303030 4px solid ;
+    margin: 0px 30px;
+}
+.gachchan{
+    background: url(/ASM/image/gachngang.png) repeat-x 7px;
+    margin: 30px 20px;
+    height: 2px;
+}
+.black-line{
+    height: 5px;
+    border-top: #303030 4px solid ;
+    margin: 30px 0px;
+}
+.Contact{
+    font-family: NunitioVarBoldItalia;
+    color: #808080;
+}
+.Contact a{
+    color: #f15e2c;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+/* #footer */
+footer{
+    display: flex;
+    justify-content: center;
+}
+.footer1{
+    background-color: rgb(61, 59, 59);
+    font-family: NunitioVar;
+    padding: 40px 0px 40px 0px;
+}
+.footer1 h3{
+    font-family: GeometricExtrabold;
+    font-size: 25px;
+}
+.footer-heading{
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+.footer-list{
+    padding-left: 0 ;
+    list-style: none;
+}
+.footer-link{
+    text-decoration: none;
+    color: rgb(148, 145, 145);
+    font-size: medium;
+    line-height: 20px;
+}
+.footer-link:hover{
+    color: orangered;
+}
+.iconsocial{
+    padding-left: 0 ;
+}
+.cot-0{
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    margin-left: 80px;
+    margin-right: 0px;
+}
+.cot{
+    width: 1500px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.cot1{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 20%;
+    font-size: small;
+    list-style: none;
+}
+.cot1>li>a>img{
+    
+    margin-left: -40px;
+    margin-bottom: 15px;
+    vertical-align: middle;
+}
+.timcuahang{
+    background-color: orangered ;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: medium;
+    border: orangered;
+    padding: 10px 80px;
+    margin-left: -38px;
+    
+}
+.logoana{
+    width: 270px;
+    height: 60px;
+}
+.bocongthuong{
+    padding-top: 30px;
+    width: 170px;
+    height: 95px;
+}
+.search{
+    position: relative;
+}
+.search1{
+    border: 1px solid gray ;
+    width: 120px;
+    height: 27px;
+    display: inline-block;
+   
+}
+.muiten img{
+    position: absolute;
+    margin-left: 5px;
+    height: 27px;
+}
+.footer-heading1{
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
+.footer-link-sc{
+    text-decoration: none;
+    color: rgb(148, 145, 145);
+    font-size: small;
+    line-height: 20px;
+}
